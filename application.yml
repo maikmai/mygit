@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: test
+  application:
+    name: msig06-ms-test
+server:
+  port: 8080
+---
+spring:
+  profiles: dev
+  application:
+    name: msig06-ms-dev
+server:
+  port: 8088
