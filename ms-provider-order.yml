@@ -2,7 +2,7 @@ spring:
     profiles:
       active: test
 busi:
-  ops: Y
+  ops: 
 ---
 server:
   port: 8002
