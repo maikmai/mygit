@@ -7,7 +7,7 @@ spring:
   application:
     name: msig06-ms-test
 server:
-  port: 8081
+  port: 8080
 ---
 spring:
   profiles: dev
