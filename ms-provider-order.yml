@@ -1,0 +1,20 @@
+spring:
+    profiles:
+      active: test
+busi:
+  ops: Y
+---
+server:
+  port: 8002
+spring:
+  profiles: dev
+  application:
+      name: ms-provider-order
+---
+spring:
+  datasource:
+  profiles: test
+  application:
+      name: ms-provider-order
+server:
+  port: 8003
